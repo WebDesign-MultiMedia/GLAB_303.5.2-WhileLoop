@@ -61,6 +61,28 @@ public class Main {
         }
 
 
+
+
+        // Example 3
+
+        Scanner inp2 = new Scanner(System.in);
+
+        System.out.println("Enter an int value (the program exits if the input is 0): ");
+        int data = inp2.nextInt();
+
+        int sum = 0;
+        while (data != 0){
+            sum += data;
+
+            System.out.println("Enter an int value (the program exits if the input is 0): ");
+            data = inp2.nextInt();
+        }
+
+        System.out.println("The sum is " + sum);
+
+
+
+
     }
 
 //    public class SubtractionQuizLoop{
